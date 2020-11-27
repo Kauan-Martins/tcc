@@ -1,0 +1,40 @@
+/*modalidades.html*/
+.modalidades-section, .section-sobre,
+.section-contato{
+    background-color: #FFFFFF;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);   
+    border: 1px solid lightgray;
+}
+    summary{
+        font: 500 15pt 'Montserrat', sans-serif;
+        font-size: 15pt;
+        color: #FFF;
+        background-color: #151515;
+        padding: 5px 0px 5px 10px;
+        margin: 10px 0px 10px 0px;
+        cursor:pointer;
+    }
+    details[open] summary{ background-color: #EC803B; }
+    details h1{
+        font: bold 22px 'Montserrat', sans-serif;
+        color: #EC803B;
+    }
+    details h2{
+        font: 500 18px 'Montserrat', sans-serif;
+        color: #EC803B;
+    }
+    details h2 span{
+        font: 500 16px 'Montserrat', sans-serif;
+        color: #151515;
+    }
+    details #titulo{
+        font: bold 24px 'Montserrat', sans-serif;
+        color: #151515;
+    }
+
+
+
+    

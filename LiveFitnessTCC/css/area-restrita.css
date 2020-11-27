@@ -1,0 +1,68 @@
+body{
+	background-color: #EC803B;
+}
+
+/*area-restrita.html*/
+.main{
+	display: flex;
+	width: calc(100% - 280px);
+	flex-direction: column;
+	height: 100%;
+}
+
+.banner{
+	min-height: 350px;
+	float: right;
+    width: 100%;
+	background: lightgray;
+	display: flex;
+}
+	.banner .titulo{
+		color: #EC803B;
+		font-size: 3em;
+		padding: 70px 10px;
+	}
+
+.aside{
+	min-height: 100%;
+	width: 280px;
+	background-color: #151515;
+	position: relative;
+}
+	.aside ul{
+		list-style: none;
+		margin: auto;
+		padding: 0;
+	}
+		.aside a{
+			display: block;
+			padding: 25.5px 10px;
+			color: white;
+			text-decoration: none;
+		}
+		.aside a:hover{
+			background-color: #EC803B;
+			color: #F2F2F2;
+		}
+
+.conta{
+	height: 400px;
+	float: left;
+	background: #F2F2F2;
+	padding: 20px;
+}
+
+/*smartphone*/
+@media screen and (min-width: 320px) and (max-width: 425px){
+	body {background-color: #F2F2F2;}
+	.container-2{ margin: 0 auto; }
+	.main{ width: 100%; }
+	.banner { background-color: #EC803B; }
+		.banner .titulo{ color: #f2f2f2;}
+	.aside{ display: none; }
+	.conta{
+		width: 100%;
+		padding: 0px;
+	}
+		.conta .titulo h1 { border-bottom: 2px solid #EC803B;}
+}
